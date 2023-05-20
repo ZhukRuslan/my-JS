@@ -44,10 +44,67 @@
 // const message = 'You picked ${"Droid"}, price per item is ${3500} credits';
 // console.log(message);
 
-let pricePerDroid = 800;
-let orderedQuantity = 6;
-let deliveryFee = 50;
-let totalPrice = pricePerDroid * orderedQuantity + deliveryFee;
-console.log(totalPrice);
-const message = `You ordered droids worth" ${totalPrice} credits. Delivery  (${deliveryFee} credits) is included in total price.`;
-console.log(message);
+//
+
+// function makeMessage (name, price) {
+//   // Change code below this line
+//   const message = `You picked ${name}, price per item is ${price} credits`;
+  
+//   // Change code above this line
+//   return message;
+// };
+
+//  makeMessage('Radar', 6150);
+//  makeMessage('Scanner', 3500);
+//  makeMessage('Reactor', 8000);
+//  makeMessage('Engine', 4070);
+   
+// function calculateTotalPrice (orderedQuantity, pricePerItem) {
+//   // Change code below this line
+//   const totalPrice = (orderedQuantity * pricePerItem);
+
+//   // Change code above this line
+//   return totalPrice;
+// };
+
+// calculateTotalPrice(5, 100); difference
+// calculateTotalPrice(8, 60);
+// calculateTotalPrice(3, 400);
+// calculateTotalPrice(1, 3500);
+// calculateTotalPrice(12, 70);
+
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = 'jqueryismyjam';
+//   let message;
+
+//   if (checkPassword === null) { // Change this line
+//     message =  'Canceled by user!';
+//   } else if (checkPassword === ADMIN_PASSWORD) { // Change this line
+//     message = 'Welcome!';
+//   } else {
+//     message = 'Access denied, wrong password!';
+//   }
+
+//   return message;
+// }
+// checkPassword("mangohackzor");
+// checkPassword(null);
+// checkPassword("polyhax");
+// checkPassword("jqueryismyjam");
+
+// function getSubstring(string, length) {
+//   const substring = (string, getSubstring.length); // Change this line
+
+//   return substring;
+// }
+// getSubstring("Hello world", 3);
+// getSubstring("Hello world", 6);
+// getSubstring("Hello world", 8);
+// getSubstring("Hello world", 11);
+// getSubstring("Hello world", 0);
+let a = 6; 
+let b = false; 
+let c = "12"; 
+let d = 1; 
+let result = a + d + c + b; 
+console.log(result);
